@@ -14,7 +14,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolveLoader: {
-    modulesDirectories: ['node_modules']
+    modulesDirectories: ['node_modules','ckeditor']
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()

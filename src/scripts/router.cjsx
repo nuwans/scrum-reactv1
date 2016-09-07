@@ -20,6 +20,7 @@ LoginMonitor = require './login_monitor'
 StyleGuide = require './styleguide'
 Pdf = require './pdf'
 App = require './app'
+Editor =require './editor'
 
 routes = (
   <Route>
@@ -27,6 +28,7 @@ routes = (
     <Route name="styleguide" component={StyleGuide} path="/styleguide" />
     <Route name="loginmonitor" component={LoginMonitor} path="/login_monitor" />
     <Route name="pdf" component={Pdf} path="/pdf" />
+    <Route name="editor" component={Editor} path="/editor" />
   </Route>
 )
 

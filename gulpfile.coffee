@@ -10,7 +10,6 @@ _ = require 'underscore'
 
 # Load plugins
 $ = require('gulp-load-plugins')()
-
 # CSS
 gulp.task('css', ->
   gulp.src(['src/styles/*.sass', 'src/styles/*.scss'])
