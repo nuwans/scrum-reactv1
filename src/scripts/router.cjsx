@@ -18,6 +18,7 @@ history = useRouterHistory(createHashHistory)({ queryKey: false })
 HelloWorld = require './hello_world'
 LoginMonitor = require './login_monitor'
 StyleGuide = require './styleguide'
+Pdf = require './pdf'
 App = require './app'
 
 routes = (
@@ -25,6 +26,7 @@ routes = (
     <Route name="hello" component={HelloWorld} path="/" />
     <Route name="styleguide" component={StyleGuide} path="/styleguide" />
     <Route name="loginmonitor" component={LoginMonitor} path="/login_monitor" />
+    <Route name="pdf" component={Pdf} path="/pdf" />
   </Route>
 )
 
